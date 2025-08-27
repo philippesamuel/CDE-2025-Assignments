@@ -1,8 +1,28 @@
 # CDE-2025-Assignments
 Assignments for the 2025 cohort of the Core Data Engineers Bootcamp
 
-
 [//]: # (Add diagram of conceptual pipeline here. Use mermaid.js)
+
+```mermaid
+flowchart LR
+subgraph " "
+  subgraph A[Social Media]
+    Facebook
+    X("x(twitter)")
+    LinkedIn
+    WhatsApp
+  end
+  C[Call center log files - txt]
+  S[SMS]
+  W[website forms] --> db[(DB)]
+end
+  A --> E(Extract) --> L(Load) --> DW[(Data Warehouse)] --> T(Transform)
+  C --> E
+  S --> E
+  db --> E
+  o[others] --> E
+```
+
 
 [//]: # (Written explanation)
 [//]: # (Design choices)
