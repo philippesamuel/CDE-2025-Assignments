@@ -56,6 +56,12 @@ For this use case it is enough to ingest and process data in hourly batches -- e
  
 ### 6. Orchestration e Monitoring
 
+The pipeline will run hourly. A pipeline monitoring system will alert the Data Engineering team through e-mail and/or a phone notification.
+
+### 7. DataOps
+
+A thorough cost comparison must be performed. If the current infrastrocture allows it, the pipeline can run on-premises, otherwise, a cloud provider must be sought.
+CI/CD principles. Good DevOps practices. VCS. dev -> main (qual) -> prod (release-*.*.*).
 
 
 [//]: # (Assumptions/thought process)
