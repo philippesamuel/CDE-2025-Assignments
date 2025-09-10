@@ -1,0 +1,3 @@
+MAILTO=$MY_EMAIL
+0 0 * * *  /home/$USER/CDE-2025-Assignments/src/02.linux-and-git/etl.sh 
+
