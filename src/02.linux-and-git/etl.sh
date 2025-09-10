@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # CONSTANTS
-export RAW_CSV_URL=https://www.stats.govt.nz/assets/Uploads/Annual-enterprise-survey/Annual-enterprise-survey-2023-financial-year-provisional/Download-data/annual-enterprise-survey-2023-financial-year-provisional.csv
+RAW_CSV_URL=https://www.stats.govt.nz/assets/Uploads/Annual-enterprise-survey/Annual-enterprise-survey-2023-financial-year-provisional/Download-data/annual-enterprise-survey-2023-financial-year-provisional.csv
 RAW_CSV_PATH=raw/2023_year_finance.csv
 TRANSFORMED_CSV_PATH=transformed/2023_year_finance.csv
 LOAD_CSV_PATH=gold/2023_year_finance.csv
